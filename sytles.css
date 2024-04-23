@@ -1,0 +1,33 @@
+
+/*estos estilos son para el header*/
+ 
+.perro {
+  text-align:center;
+  color: rgb(71, 74, 219);
+  font-family: "Quicksand", sans-serif;
+  font-size: 70px;
+}
+.contenedor {
+display: inline-flex;
+align-items: center;
+}
+.cen {
+  text-align: center;
+}
+
+/*estos son los estilos para body*/
+body { background-color: rgb(219, 219, 233);
+}
+/* estos estilos son para nav*/
+nav {
+  float: center;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  background-color:rgb(146, 155, 219);
+}
+
+a:hover {
+  color: rgb(10, 11, 90);
+}
