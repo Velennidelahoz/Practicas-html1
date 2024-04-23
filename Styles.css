@@ -6,18 +6,16 @@
     font-size: 70px;
 }
 
-.contenedor {
-    display: inline-flex;
-    align-items: center;
+header {
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
 }
 
-.cen {
-    text-align: center;
-}
-
-.imagen-huellitas {
-    width: 20%;
-    height: 20%;
+.video-huellitas {
+    width: 30%;
+    height: 30%;  
 }
 
 /* Estilos para el nav */
