@@ -1,33 +1,104 @@
-
-/*estos estilos son para el header*/
- 
+/* estos estilos son para el header*/ 
 .perro {
-  text-align:center;
-  color: rgb(71, 74, 219);
-  font-family: "Quicksand", sans-serif;
-  font-size: 70px;
+    text-align: center;
+    color: rgb(71, 74, 219);
+    font-family: "Quicksand", sans-serif;
+    font-size: 70px;
 }
+
 .contenedor {
-display: inline-flex;
-align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
+
 .cen {
-  text-align: center;
+    text-align: center;
 }
 
-/*estos son los estilos para body*/
-body { background-color: rgb(219, 219, 233);
+.imagen-huellitas {
+    width: 20%;
+    height: 20%;
 }
-/* estos estilos son para nav*/
+
+/* Estilos para el nav */
 nav {
-  float: center;
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-align: center;
-  background-color:rgb(146, 155, 219);
+    text-align: center;
+    background-color: rgb(146, 155, 219);
+    padding: 20px 0; 
 }
 
-a:hover {
-  color: rgb(10, 11, 90);
+nav a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255); 
+}
+
+/* estos son los estilos para body*/ 
+body {
+    background-color: rgb(219, 219, 233);
+    font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px; 
+    color: rgb(71, 74, 219);
+}
+
+.texto-bienvenida {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic; 
+    font-weight: bold;  
+}
+
+.texto-expositivo {
+    font-size: 18px;
+    text-align: justify; 
+}
+
+.texto-agradecimiento {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic; 
+    font-weight: bold;
+    color: rgb(71, 74, 219); 
+}
+
+.imagen-rescate {
+    border-radius: 10%;
+    display: block; 
+    margin: 0 auto; 
+    width: 50%;
+    height: 50%;
+    border: 5px solid #844de3bc; 
+}
+
+.boton-contenedor {
+    text-align: center;
+}
+
+.boton-rescates {
+    padding: 20px 20px;
+    background-color: rgb(146, 155, 219);
+    border: none;
+    transition: background-color 0.6s;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9)
+}
+
+.boton-rescates:hover {
+    background-color: rgb(181, 123, 202); 
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center; 
+    background-color: rgb(146, 155, 219);
 }
